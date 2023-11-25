@@ -68,7 +68,7 @@ nav a {
 /* Responsive adjustments for header */
 @media (max-width: 768px) {
     .header-title {
-        font-size: 32px; /* Adjust the font size for mobile */
+        font-size: 40px; /* Adjust the font size for mobile */
         letter-spacing: 2px;
     }
 
