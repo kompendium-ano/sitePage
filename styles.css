@@ -1,0 +1,64 @@
+/* Custom styles for additional effects */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+nav a {
+    transition: color 0.3s ease;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.header-title {
+    animation: fadeInDown 1s ease-out;
+    font-family: 'Georgia', serif; 
+    font-size: 68px; 
+    letter-spacing: 10px;  
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6); 
+}
+
+.services-title {
+    animation: fadeIn 1s ease-out;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: fadeIn 0.6s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    text-align: center; /* Center align h3 headers */
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* AOS library animation */
+[data-aos] {
+    transition: transform 0.6s ease, opacity 0.6s ease;
+}
