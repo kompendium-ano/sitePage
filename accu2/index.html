@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ACCU2 — Secure delegated signing for Accumulate</title>
+  <meta name="description" content="ACCU2 is a beautiful and simple mobile wallet for the Accumulate network.  Send tokens, write data, vote on chain, rotate keys, sign multi-sig actions with push notification alerts." />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="icon" href="accu2_logo.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="accu2_logo.svg" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <meta property="og:title" content="ACCU2 — Secure delegated signing for Accumulate" />
+  <meta property="og:description" content="Approve, Reject Multi-Sig Actions Instantly. Elegant UI, secure delegation, real-time push." />
+  <meta property="og:image" content="https://user-images.githubusercontent.com/placeholder/accu2-og.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://<your-username>.github.io/accu2-site/" />
+</head>
+<body>
+  <!-- Decorative animated blobs background -->
+  <div class="bg">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <div class="grid"></div>
+  </div>
+
+  <header class="nav">
+    <a href="#" class="brand" aria-label="ACCU2 home">
+      <img src="accu2_logo.svg" alt="ACCU2 Logo" style="height: 32px; width: auto;" />
+      <span>ACCU2</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#security">Security</a>
+    </nav>
+
+    <div class="nav-cta">
+      <button class="btn ghost" id="themeToggle" aria-label="Toggle dark mode">🌗</button>
+      <a class="btn" href="#download">Get the app</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__content">
+        <h1 class="reveal">
+          Approve, Reject<br/><span class="gradient-text">Multi-Sig Actions</span><br/>instantly.
+        </h1>
+        <p class="lead reveal">
+          ACCU2 is a beautiful and simple mobile wallet for the Accumulate network.  
+          Send tokens, write data, vote on chain, rotate keys, and sign multi-sig actions with ease.
+        </p>
+        <div class="hero__cta reveal">
+          <a class="btn" href="#download">Download</a>
+          <a class="btn outline" href="#features">Explore features</a>
+        </div>
+        <div class="hero__badges reveal" aria-label="Platform badges">
+          <a class="store" href="https://apps.apple.com/us/app/accu2/id6479600650" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" />
+          </a>
+          <a class="store" href="#" aria-label="Get it on Google Play">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+      <!-- APP PREVIEW GALLERY -->
+      <section class="app-gallery reveal" aria-label="ACCU2 app preview">
+        <div style="display: flex; justify-content: center; gap: 24px; max-width: 100%; padding: 24px;">
+          <img src="app_view1.webp" alt="ACCU2 screenshot 1" style="height: 600px; border-radius: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
+          <img src="app_view2.webp" alt="ACCU2 screenshot 2" style="height: 600px; border-radius: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
+          <img src="app_view3.webp" alt="ACCU2 screenshot 3" style="height: 600px; border-radius: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
+          <img src="app_view4.webp" alt="ACCU2 screenshot 4" style="height: 600px; border-radius: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
+        </div>
+      </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section">
+      <div class="section__header">
+        <h2 class="reveal">Why ACCU2</h2>
+        <p class="reveal">Elegantly solve while on-the-move web3 actions with clarity, speed, and security.</p>
+      </div>
+
+      <div class="features">
+        <article class="feature reveal">
+          <div class="ico">⚡</div>
+          <h3>The Power of Simplicity</h3>
+          <p>Effortlessly send, receive, or take tokens, vote, or sign multi-party actions—at the touch of a button.</p>
+        </article>
+
+        <article class="feature reveal">
+          <div class="ico">🔗</div>
+          <h3>Smart Discovery</h3>
+          <p>Finds and notifies you of on-chain multi-party actions you can approve/reject—identity relationship awareness.</p>
+        </article>
+
+        <article class="feature reveal">
+          <div class="ico">🔒</div>
+          <h3>Security First</h3>
+          <p>Clear signer provenance, safe approvals, and transparent transaction details.</p>
+        </article>
+
+        <article class="feature reveal">
+          <div class="ico">🎯</div>
+          <h3>Focused UX</h3>
+          <p>Beautiful design, delightful animations, and an interface that stays out of your way.</p>
+        </article>
+      </div>
+    </section>
+
+
+    <!-- HOW IT WORKS -->
+    <section id="how" class="section">
+      <div class="section__header">
+        <h2 class="reveal">How it works</h2>
+      </div>
+      <ol class="steps">
+        <li class="reveal">
+          <span class="steps__num">1</span>
+          <h3>Choose an Identity</h3>
+          <p>Enter your desired account name; Accu2 will tell you if it's available.</p>
+        </li>
+        <li class="reveal">
+          <span class="steps__num">2</span>
+          <h3>Zero Friction onboarding!</h3>
+          <p>Accu2 automatically sets up your identity and accounts on chain for you.</p>
+        </li>
+        <li class="reveal">
+          <span class="steps__num">3</span>
+          <h3>Ready, Set, Go!</h3>
+          <p>You're all set to send tokens, write data, vote, and sign multi-sig transactions!</p>
+        </li>
+      </ol>
+    </section>
+
+
+    <!-- SECURITY -->
+    <section id="security" class="section section--alt">
+      <div class="section__header">
+        <h2 class="reveal">Security & privacy</h2>
+        <p class="reveal">Built for confidence—transparent signers, minimal permissions, and clean data handling.</p>
+      </div>
+      <div class="security-grid">
+        <div class="security-card reveal">
+          <h3>Delegation clarity</h3>
+          <p>We visualize signer vs. prior-hop so you never sign out of turn.</p>
+        </div>
+        <div class="security-card reveal">
+          <h3>Minimal telemetry</h3>
+          <p>No tracking pixels, no ads—just what’s needed for notifications and reliability.</p>
+        </div>
+        <div class="security-card reveal">
+          <h3>Transparent status</h3>
+          <p>Delivered vs. pending vs. refunded credits are presented in plain language.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOWNLOAD -->
+    <section id="download" class="section section--cta">
+      <div class="cta-card reveal">
+        <h2>Ready to try ACCU2?</h2>
+        <p>Install now and approve your next signature in seconds.</p>
+        <div class="hero__badges">
+          <a class="store" href="https://apps.apple.com/us/app/accu2/id6479600650" target="_blank" rel="noopener noreferrer" aria-label="App Store">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+          </a>
+          <a class="store" href="#" aria-label="Google Play (coming soon)">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© <span id="y"></span> ACCU2</div>
+    <nav aria-label="Footer">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="mailto:hello@accu2.app">Contact</a>
+    </nav>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
