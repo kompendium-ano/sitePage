@@ -1,0 +1,5 @@
+Generated: 2026-07-11
+Logo direction source: user-provided styled name [|<]ompendium.
+Live reference checked: https://kompendium.co and https://kompendium.co/styles.css
+Public services/copy summarized from the live kompendium.co page.
+PNG exports drawn from the generated vector geometry.

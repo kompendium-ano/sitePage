@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page not found — Kompendium, LLC</title>
+  <link rel="icon" href="assets/k-mark.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .nf { min-height: 100vh; display: grid; place-items: center; text-align: center;
+      background: radial-gradient(900px 500px at 50% -10%, var(--blue-050), transparent 60%), var(--white); padding: 40px 24px; }
+    .nf__mark { font-family: var(--font-mono); font-size: clamp(64px, 16vw, 150px); font-weight: 600; color: var(--blue); letter-spacing: -6px; line-height: 1; }
+    .nf h1 { font-size: clamp(26px, 5vw, 40px); margin: 18px 0 12px; }
+    .nf p { color: var(--slate-2); margin-bottom: 28px; }
+  </style>
+</head>
+<body>
+  <div class="nf">
+    <div>
+      <div class="nf__mark">[404]</div>
+      <h1>This page isn&rsquo;t in the compendium.</h1>
+      <p>The link may be old or mistyped. Let&rsquo;s get you back on track.</p>
+      <a class="btn btn--primary btn--lg" href="/">Return home <span class="chev">&rsaquo;</span></a>
+    </div>
+  </div>
+</body>
+</html>
