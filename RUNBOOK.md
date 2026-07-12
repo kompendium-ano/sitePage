@@ -86,6 +86,22 @@ animate and inherit color — they are intentionally *not* image files.
 
 ## 5. Deploy
 
+> **⚠️ Cache-busting — do this whenever you change `styles.css` or `main.js`.**
+> The domain sits behind Cloudflare, and GitHub Pages serves assets with
+> `Cache-Control: max-age=14400` (4 h). Without a version change, browsers and the
+> CDN keep serving the **old** CSS/JS against new HTML — the page renders unstyled
+> and "out of control." Fix: bump the `?v=` query on the asset links in `index.html`
+> (and `404.html`) every time those files change:
+>
+> ```html
+> <link rel="stylesheet" href="styles.css?v=20260712b" />   <!-- bump the value -->
+> <script src="main.js?v=20260712b"></script>
+> ```
+>
+> Changing the value makes it a new URL, so every visitor fetches fresh immediately.
+> Use a date or incrementing tag. (HTML itself has a short 10-min TTL, so it updates
+> on its own.)
+
 GitHub Pages serves from this repo. To publish:
 
 ```bash
